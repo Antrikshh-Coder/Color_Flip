@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    transition: background-color 0.4s ease;
+  }
+  
+  .container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  button {
+    padding: 12px 25px;
+    font-size: 18px;
+    background-color: red;
+    color: rgb(7, 15, 255);
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: rgb(255, 234, 0);
+  }
+  
+  h2 {
+    margin-top: 20px;
+    font-size: 20px;
+    color: rgb(255, 1, 107);
+  }
+  
+  #colorCode {
+    font-weight: bold;
+  }
+  
